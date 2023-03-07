@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-for n in range(1, 27):
-    print(chr(n + 96))
+for i in range(ord('a'), ord('z') + 1):
+    print('{:c}'.format(i), end='')
+
